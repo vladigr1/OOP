@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ex10.controller">
+   <children>
+      <VBox prefHeight="200.0" prefWidth="100.0" spacing="3.0">
+         <children>
+            <Button fx:id="button1" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#press" text="Button" />
+            <Button fx:id="button2" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#press" text="Button" />
+            <Label fx:id="label" maxWidth="-Infinity" text="no press in scene" />
+         </children>
+         <padding>
+            <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>
